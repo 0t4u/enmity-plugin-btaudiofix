@@ -1,11 +1,12 @@
 {
-   "name": "SilentTyping",
-   "version": "1.0.0",
-   "description": "Silences your typing indicator.",
+   "name": "BTAudioFix",
+   "version": "0.0.1",
+   "description": "Disable \"Hands Free AG Audio\"",
+   "remoteLocation": "https://raw.githubusercontent.com/0t4u/enmity-plugin-btaudiofix/main/manifest.json",
    "authors": [
       {
-         "name": "eternal",
-         "id": "263689920210534400"
+         "name": "rattley",
+         "id": "379928776857092097"
       }
    ]
 }

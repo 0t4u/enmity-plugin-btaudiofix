@@ -1,9 +1,9 @@
 {
-   "name": "plugin-template",
-   "description": "Template for enmity plugins.",
-   "version": "1.0.0",
+   "name": "enmity-plugin-btaudiofix",
+   "description": "BTAudioFix plugin.",
+   "version": "0.0.1",
    "license": "GPL-3.0",
-   "author": "Zoey & eternal",
+   "author": "0t4u",
    "scripts": {
       "build": "rollup -c --configPlugin esbuild"
    },
