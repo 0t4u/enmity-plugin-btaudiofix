@@ -10,9 +10,9 @@ interface SettingsProps {
 
 export default async ({ settings }: SettingsProps) => {
    const result = await REST.get(`${manifest["remoteLocation"]}?v=${uuid()}`);
-   const json = JSON.parse(await result.text);
+   const txt = await result.text;
 
-   const extVer = json.version;
+   const extVer = txt.match(/\d\.\d\.\d+/g);;
 
    return <FormSection title='About'>
          <FormRow
